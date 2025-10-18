@@ -22,7 +22,7 @@ Aplicação interna desenvolvida com **Laravel** para gerar assinaturas profissi
 
 ## 🛠️ Tecnologias Utilizadas
 
--   **Framework**: Laravel 10
+-   **Framework**: Laravel 11.9
 -   **Linguagem**: PHP 8.2 (com typed properties, match expressions, nullsafe operators)
 -   **Geração de imagens**: Biblioteca GD nativa do PHP
 -   **Frontend**: HTML, CSS simples (sem frameworks pesados)
