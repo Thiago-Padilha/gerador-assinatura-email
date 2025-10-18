@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "frutigerCondensed";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Frutiger_Condensed.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "frutigerBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Frutiger_Bold_Condensed.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "frutigerBlack";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/Frutiger_Black_Condensed.ttf") format("truetype");
+}
+
+body {
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background-color: #fab040;
+    color: white;
+}
+
+table {
+    background-color: white;
+}
+
+.sem-espaco {
+    padding-bottom: 3px;
+    margin: 0;
+}
+
+.pos-espaco {
+    margin-bottom: 10px;
+}
+
+.verde {
+    color: #fab040;
+}
+
+.preto {
+    color: #000000;
+}
+
+.frutiger-condensed {
+    font-family: "frutigerCondensed";
+}
+
+.tamanho {
+    width: 200px;
+    height: 15px;
+}
+
+.iconeredessociais {
+    width: 80px;
+    height: 10px;
+    margin: auto;
+    display: none;
+}
+
+.barralateral {
+    background-color: #fab040;
+}
+
+#head {
+    height: 150px;
+    background-color: white;
+    margin: 2% 5%;
+    padding: 1%;
+    border-bottom: 2px solid green; /* Corrigido para uma borda visível */
+}
+
+#logo-head {
+    width: 40%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-footer {
+    color: #000000;
+    text-align: center;
+    font-family: "frutigerCondensed";
+    font-size: 12px; /* Ajuste para um valor em px */
+}
