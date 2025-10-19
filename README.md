@@ -37,4 +37,6 @@ Aplicação interna desenvolvida com **Laravel** para gerar assinaturas profissi
 ```bash
 git clone https://github.com/seu-usuario/gerador-assinatura-email.git
 cd gerador-assinatura-email
+composer update
+php artisan serve
 ```
