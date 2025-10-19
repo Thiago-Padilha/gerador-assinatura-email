@@ -32,7 +32,7 @@ body {
 }
 
 button {
-    background-color: #fab040;
+    background-color: #66c78b;
     color: white;
 }
 
@@ -50,7 +50,7 @@ table {
 }
 
 .verde {
-    color: #fab040;
+    color: #66c78b;
 }
 
 .preto {
@@ -74,7 +74,7 @@ table {
 }
 
 .barralateral {
-    background-color: #fab040;
+    background-color: #eecab2;
     width: 0.5px;
 }
 
@@ -102,7 +102,7 @@ table {
 }
 
 /* Estilos para a caixa de ajuda */
-.caixa-ajuda {
+/*.caixa-ajuda {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -129,3 +129,4 @@ table {
     border-radius: 5px;
     cursor: pointer;
 }
+*/
