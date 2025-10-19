@@ -6,7 +6,7 @@
     <table id="tabela">
         <tr>
             <td style="width: 5%; padding: 0; margin: 0; ">
-                <img src="{{ asset('imagens/realgrupopriner-logocinza.png') }}"  width="175" height="80" />
+                <img src="{{ asset('imagens/logoexemplo.png') }}"  width="175" height="80" />
                 <img class="iconeredessociais" src="{{ asset('imagens/icones-redes-sociais.png') }}" />
            
 			 </td>
@@ -15,9 +15,9 @@
             <td style="padding-left: 10pt;" >
                 <h1 class="sem-espaco preto frutiger-black" style="font-size: 10pt;"> {{ $request->nome }} </h1>
                 <h1 class="pos-espaco verde frutiger-condensed" style="font-size: 9pt;"> {{ $request->cargo }} </h1>
-                <h1 class="sem-espaco preto frutiger-bold" style="font-size: 9pt;">(31) 3362-4130 {{ $request->celular ? ' / ' . $request->celular : '' }}</h1>
+                <h1 class="sem-espaco preto frutiger-bold" style="font-size: 9pt;">(31) 9 0000-0000 {{ $request->celular ? ' / ' . $request->celular : '' }}</h1>
                 <h1 class="pos-espaco preto frutiger-condensed"style="font-size: 9pt;"> {{ $request->email }} </h1>
-                <h1 class="sem-espaco preto frutiger-condensed"style="font-size: 9pt;"> www.realestruturas.com.br </h1>
+                <h1 class="sem-espaco preto frutiger-condensed"style="font-size: 9pt;"> www.dominio.com.br </h1>
             </td>
         </tr>
         <tr>
@@ -36,11 +36,11 @@
 
 <button class="btn btn-sm" id="btnSave" onClick="print()">Salvar Assinatura</button>
 
-        <button id="btn-ajuda-home" class="btn-ajuda" type="button">Ajuda Home</button>
+        <!--<button id="btn-ajuda-home" class="btn-ajuda" type="button">Ajuda Home</button>
             <div id="caixa-ajuda-home" class="caixa-ajuda">
                 <button id="btn-fechar-home" class="btn-fechar" type="button">X</button>
                 <p>Informações de ajuda para Home...</p>
-            </div>
+            </div> -->
 
 
 <hr />

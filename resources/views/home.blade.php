@@ -3,7 +3,7 @@
 @section('conteudo')
 <div class="card-header text-center ">
     
-    <img id="logo-head" src="{{ asset('imagens/realgrupopriner-logocinza.png') }}" alt="Logo Real Grupo Priner">
+    <img id="logo-head" src="{{ asset('imagens/logoexemplo.png') }}" alt="Logo Real Grupo Priner">
     <h4>Gerador Assinatura de E-mail</h4>
 
     <form method="get" action="{{ route('assinatura') }}">
@@ -76,11 +76,11 @@
 
         <button class="btn btn-sm" type="submit">Gerar Assinatura</button>
         
-        <button id="btn-ajuda-home" class="btn-ajuda" type="button">Ajuda Home</button>
+        <!-- <button id="btn-ajuda-home" class="btn-ajuda" type="button">Ajuda Home</button>
             <div id="caixa-ajuda-home" class="caixa-ajuda">
                 <button id="btn-fechar-home" class="btn-fechar" type="button">X</button>
                 <p>Informações de ajuda para Home...</p>
-            </div>
+            </div> -->
 
 
 
